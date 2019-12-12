@@ -1,0 +1,27 @@
+
+
+body {
+  height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  background-color: white;
+}
+
+.CodeMirror {
+  height: 75vh!important;
+  text-align: left!important; 
+}
+
+.deploy {
+  background-color:  #d40ddbe1;
+  color: black;
+}
+
+.deploy:hover {
+  background-color: rgb(18, 108, 197);
+  opacity: 1;
+  transition: opacity .15s ease-in;
+  outline: none;
+}
+

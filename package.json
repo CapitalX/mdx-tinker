@@ -1,0 +1,48 @@
+{
+  "name": "kaiser",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mdx-js/runtime": "^1.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "brace": "^0.11.1",
+    "install": "^0.13.0",
+    "mdx.macro": "^0.2.9",
+    "prism-react-renderer": "^1.0.2",
+    "react": "^16.9.0",
+    "react-ace": "^7.0.2",
+    "react-codemirror2": "^6.0.0",
+    "react-dom": "^16.6.3",
+    "react-live": "^2.2.2",
+    "react-scripts": "2.1.1",
+    "source-map-explorer": "^1.6.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer build/static/js/1.*",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

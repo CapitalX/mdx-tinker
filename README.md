@@ -1,2 +1,9 @@
 # mdx-tinker
-MDX Playground
+MDX Playground Built in React
+
+
+# Getting Started
+
+yarn
+
+yarn start
