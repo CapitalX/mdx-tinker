@@ -11,6 +11,9 @@ function App() {
     });
     const response = await fetch(process.env.REACT_APP_ENDPOINT, {
       method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
       body: payload,
     });
     console.log(response);
