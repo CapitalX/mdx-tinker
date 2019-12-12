@@ -7,7 +7,7 @@ function App() {
   const [code, setCode] = useState('');
   const deploy = async file => {
     const payload = JSON.stringify({
-      'main.mdx': file
+      'Main.mdx': file
     });
     const response = await fetch(process.env.REACT_APP_ENDPOINT, {
       method: 'POST',
